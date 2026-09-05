@@ -1,0 +1,75 @@
+name: Deploy para GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Detectar tipo do site
+        id: detect
+        run: |
+          if [ -f package.json ]; then
+            echo "node=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "node=false" >> "$GITHUB_OUTPUT"
+            # Publicamos site/, nao a raiz: fotos/ e tools/ ficam no repo
+            # mas fora do que vai pro ar.
+            echo "dir=site" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Node
+        if: steps.detect.outputs.node == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Build (React/Vite/CRA)
+        if: steps.detect.outputs.node == 'true'
+        run: |
+          npm ci
+          npm run build
+          if [ -d dist ]; then dir=dist; elif [ -d build ]; then dir=build; else
+            echo "Pasta de saída não encontrada (esperado dist/ ou build/)"; exit 1; fi
+          # SPA: refresh em /rota qualquer cai no index em vez de 404 do Pages
+          cp "$dir/index.html" "$dir/404.html"
+          echo "dir=$dir" >> "$GITHUB_OUTPUT"
+        id: build
+
+      - name: Levar o CNAME para dentro do que sera publicado
+        run: |
+          dir="${{ steps.build.outputs.dir || steps.detect.outputs.dir }}"
+          if [ -f CNAME ] && [ "$dir" != "." ]; then
+            cp CNAME "$dir/CNAME"
+          fi
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empacotar site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.build.outputs.dir || steps.detect.outputs.dir }}
+
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
