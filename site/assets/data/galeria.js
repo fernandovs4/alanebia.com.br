@@ -1,0 +1,311 @@
+/* Gerado por tools/2_preparar_imagens.py - nao edite a mao. */
+window.GALERIA = {
+  "fotos": [
+    {
+      "id": "insper-2b68f21e",
+      "capitulo": "insper",
+      "rotulo": "Insper",
+      "ordem": 5,
+      "legenda": "Orgulho e amor na formatura do Alan",
+      "alt": "Alan e Bia sorrindo na formatura de Alan no Insper. Alan veste beca e capelo, e Bia o abraça, em um salão com telas digitais ao fundo.",
+      "descricao": "O casal Alan e Bia posa sorridente em um evento de formatura. Alan veste beca e capelo, enquanto Bia o abraça, em frente a uma tela grande com o nome 'Insper' e outras pessoas ao fundo.",
+      "clima": "festivo",
+      "nota": 7,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "apartamento-c1f52c20",
+      "capitulo": "apartamento",
+      "rotulo": "Campo Belo",
+      "ordem": 6,
+      "legenda": "Nosso cantinho, nosso amor, nossa Collie",
+      "alt": "Alan, Bia e sua border collie Collie deitados no sofá, sorrindo para a câmera em um momento de intimidade.",
+      "descricao": "Uma selfie do casal Alan e Bia deitados em um sofá cinza, com a cachorra Collie aninhada entre eles. Ambos sorriem para a câmera, transmitindo um momento de carinho e descontração.",
+      "clima": "intimo",
+      "nota": 7,
+      "destaque": true,
+      "cheia": {
+        "w": 1200,
+        "h": 1600
+      },
+      "protegida": false
+    },
+    {
+      "id": "collie-b4f8ff79",
+      "capitulo": "collie",
+      "rotulo": "Collie",
+      "ordem": 7,
+      "legenda": "Nossa Collie, pura alegria e amor",
+      "alt": "Um filhote de border collie preto e branco com olhos grandes e escuros, deitado no chão de madeira, mordiscando uma bola de tênis laranja.",
+      "descricao": "Um filhote de border collie preto e branco está deitado em um chão de madeira claro, brincando com uma pequena bola de tênis laranja. Ele olha diretamente para a câmera com seus olhos grandes e expressivos.",
+      "clima": "divertido",
+      "nota": 9,
+      "destaque": true,
+      "cheia": {
+        "w": 1167,
+        "h": 1293
+      },
+      "protegida": false
+    },
+    {
+      "id": "collie-4d69038b",
+      "capitulo": "collie",
+      "rotulo": "Collie",
+      "ordem": 7,
+      "legenda": "Nossa família crescendo, muito amor envolvido",
+      "alt": "Selfie no espelho de Alan segurando um filhote de border collie, Bia sorrindo com o celular no rosto, e uma criança sorridente no primeiro plano. Eles estão em um apartamento com vista para a cidade.",
+      "descricao": "Um homem sorridente segura um filhote de cachorro enquanto uma mulher tira uma selfie no espelho, com uma criança sorrindo no primeiro plano. O cenário é um ambiente interno com uma janela grande revelando prédios ao fundo.",
+      "clima": "cotidiano",
+      "nota": 6,
+      "destaque": true,
+      "cheia": {
+        "w": 493,
+        "h": 472
+      },
+      "protegida": false
+    },
+    {
+      "id": "veleiro-6cfc924c",
+      "capitulo": "veleiro",
+      "rotulo": "O veleiro",
+      "ordem": 8,
+      "legenda": "Navegando juntos, amor e paz",
+      "alt": "Alan e Bia sorrindo e abraçados em um veleiro, com o sol poente iluminando seus rostos e o mar azul ao fundo.",
+      "descricao": "O casal Alan e Bia sorriem para a câmera em um veleiro, abraçados, sob a luz dourada do pôr do sol com o mar ao fundo.",
+      "clima": "romantico",
+      "nota": 9,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "veleiro-cdd94f06",
+      "capitulo": "veleiro",
+      "rotulo": "O veleiro",
+      "ordem": 8,
+      "legenda": "Velejando juntos rumo ao horizonte",
+      "alt": "Alan e Bia sorrindo em um veleiro, com Alan no leme e Bia ao lado, durante o pôr do sol no mar.",
+      "descricao": "Um casal sorridente posa em um veleiro durante o pôr do sol. O homem está no leme e a mulher ao seu lado, com o mar e o horizonte dourado ao fundo.",
+      "clima": "romantico",
+      "nota": 8,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-2e5f3b13",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Nossas mãos unidas, nosso amor celebrado",
+      "alt": "Mãos de Alan e Bia com alianças sobre um bolo de casamento branco decorado com flores e as iniciais A e B.",
+      "descricao": "Duas mãos com alianças de casamento, uma sobre a outra, tocam suavemente o topo de um bolo branco de dois andares. O bolo é decorado com flores brancas e as iniciais 'A' e 'B' em dourado.",
+      "clima": "romantico",
+      "nota": 9,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-9226ef86",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Bia, a beleza de um novo começo",
+      "alt": "Bia, vestindo um elegante vestido branco, sorri gentilmente enquanto segura um buquê de flores brancas e rosadas. Ela usa brincos de pérola e pulseiras douradas.",
+      "descricao": "Bia, em um vestido branco, segura um pequeno buquê de flores e sorri suavemente para a câmera. O fundo está desfocado, criando um ambiente íntimo.",
+      "clima": "intimo",
+      "nota": 9,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-7d599417",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Nosso amor em cada abraço",
+      "alt": "Alan e Bia, o casal, se abraçam ternamente, com os rostos próximos e os olhos fechados, em um momento de carinho e afeto.",
+      "descricao": "O casal Alan e Bia se abraça ternamente, com os rostos próximos e os olhos fechados, transmitindo um momento de profunda conexão e carinho.",
+      "clima": "romantico",
+      "nota": 8,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-793fb93a",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Nosso civil, cercados de amor e alegria",
+      "alt": "Alan e Bia sorrindo com um grupo de amigos e familiares em frente a um prédio moderno, celebrando o casamento civil. Bia segura um buquê.",
+      "descricao": "Um grupo de pessoas, incluindo o casal Alan e Bia, posa sorrindo em degraus de pedra em frente a um edifício com grandes janelas espelhadas. Bia segura um pequeno buquê de flores.",
+      "clima": "festivo",
+      "nota": 8,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-d01b81a8",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Alegria do nosso casamento civil",
+      "alt": "Alan beija a testa de Bia, que sorri com um buquê e aliança, segurando o certificado de casamento.",
+      "descricao": "Um casal sorridente em um momento íntimo, com o homem beijando a testa da mulher. Ela segura um pequeno buquê de flores e exibe a aliança, enquanto ambos seguram um documento oficial desfocado.",
+      "clima": "romantico",
+      "nota": 8,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": true
+    },
+    {
+      "id": "civil-83c74667",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Alan e Bia, felizes no civil",
+      "alt": "Alan e Bia sorrindo, ela com vestido branco e buquê, ele de camisa cinza, em ambiente interno com parede de madeira.",
+      "descricao": "O casal posa sorridente em um ambiente interno. Ela veste um vestido branco e segura um buquê de flores, enquanto ele usa camisa social e calça. Ao fundo, uma parede com ripas de madeira e cadeiras.",
+      "clima": "intimo",
+      "nota": 7,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-0ccaa657",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Amor e carinho no dia especial",
+      "alt": "Casal Alan e Bia em preto e branco, ele beija a testa dela enquanto ela sorri com os olhos fechados, segurando um buquê de flores. Ao fundo, uma parede de madeira ripada e, à esquerda, uma câmera de segurança e objetos sobre uma mesa de vidro.",
+      "descricao": "Um casal se abraça em preto e branco, com o homem beijando a testa da mulher, que sorri com os olhos fechados e segura um pequeno buquê. Eles estão em um ambiente interno com uma parede ripada ao fundo.",
+      "clima": "romantico",
+      "nota": 7,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "civil-e726f45f",
+      "capitulo": "civil",
+      "rotulo": "O civil",
+      "ordem": 9,
+      "legenda": "Nosso sim civil, o início de tudo",
+      "alt": "Um buquê de flores cor-de-rosa e brancas sobre uma mesa de madeira, com um certificado de casamento e duas alianças douradas em destaque.",
+      "descricao": "Um buquê de flores em tons de rosa e branco está sobre uma superfície de madeira. Em primeiro plano, um certificado de casamento é visível, com duas alianças douradas sobre ele.",
+      "clima": "romantico",
+      "nota": 7,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": true
+    },
+    {
+      "id": "hoje-43324e72",
+      "capitulo": "hoje",
+      "rotulo": "Hoje",
+      "ordem": 10,
+      "legenda": "Um brinde ao amor e à elegância",
+      "alt": "Fotografia em preto e branco de Alan e Bia. Bia está sentada em uma cadeira, vestindo um vestido branco, olhando para Alan, que está em pé atrás dela. O fundo mostra uma adega de vinhos.",
+      "descricao": "Uma foto em preto e branco de Alan e Bia em um ambiente que parece ser um restaurante ou wine bar. Bia está sentada em uma cadeira, com as pernas cruzadas, olhando para Alan, que está em pé atrás dela. Ao fundo, há uma grande estante com garrafas de vinho.",
+      "clima": "romantico",
+      "nota": 8,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "geral-f013fc1f",
+      "capitulo": "geral",
+      "rotulo": "Momentos",
+      "ordem": 11,
+      "legenda": "Nossa vida é uma festa, juntos",
+      "alt": "Alan e Bia sorrindo em um estande temático do filme Viva, com recortes dos personagens Miguel e um esqueleto mariachi. O estande tem uma moldura iluminada e um fundo azul com cortinas.",
+      "descricao": "O casal Alan e Bia posa sorridente em um estande temático do filme 'Viva: A Vida é uma Festa', com recortes dos personagens Miguel e Héctor. A moldura do estande é iluminada e ricamente decorada.",
+      "clima": "festivo",
+      "nota": 8,
+      "destaque": true,
+      "cheia": {
+        "w": 1280,
+        "h": 960
+      },
+      "protegida": false
+    },
+    {
+      "id": "geral-066b329b",
+      "capitulo": "geral",
+      "rotulo": "Momentos",
+      "ordem": 11,
+      "legenda": "Celebrando a vida e o amor",
+      "alt": "Alan e Bia sorrindo em frente a um cenário colorido do filme Viva, com os personagens Miguel e Hector.",
+      "descricao": "O casal posa sorridente em frente a um cenário temático do filme 'Viva - A Vida é Uma Festa', com figuras dos personagens Miguel e Hector. O fundo é decorado com cortinas azuis e um letreiro iluminado com o título do filme.",
+      "clima": "divertido",
+      "nota": 7,
+      "destaque": true,
+      "cheia": {
+        "w": 960,
+        "h": 1280
+      },
+      "protegida": false
+    },
+    {
+      "id": "geral-a8c93969",
+      "capitulo": "geral",
+      "rotulo": "Momentos",
+      "ordem": 11,
+      "legenda": "Momentos de paz e alegria na praia",
+      "alt": "Alan e Bia sorrindo e fazendo o sinal de paz na praia ao entardecer, com o mar e a orla ao fundo.",
+      "descricao": "Selfie de Alan e Bia na praia ao entardecer. Eles sorriem para a câmera, fazendo o sinal de paz com as mãos, com o mar e a orla ao fundo.",
+      "clima": "divertido",
+      "nota": 5,
+      "destaque": true,
+      "cheia": {
+        "w": 1200,
+        "h": 1600
+      },
+      "protegida": false
+    }
+  ]
+};

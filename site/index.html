@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alan &amp; Bia · 21 de novembro de 2026 · Petrolina</title>
+  <meta name="description" content="Alan e Bia vão casar em Petrolina, onde tudo começou com um açaí. Conheça a história, veja as fotos e confirme sua presença." />
+  <meta name="theme-color" content="#1F3A44" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Alan & Bia · 21.11.2026 · Petrolina" />
+  <meta property="og:description" content="Uma história que começou com um açaí em Petrolina, atravessou o Brasil e volta para casa." />
+  <meta property="og:image" content="assets/img/arte/hero-panoramico-1280.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%231F3A44'/%3E%3Cpath d='M32 46c-8-6.5-14-11-14-17.5C18 23 22 20 26 20c2.6 0 5 1.3 6 3.4C33 21.3 35.4 20 38 20c4 0 8 3 8 8.5C46 35 40 39.5 32 46Z' fill='%23C6A75E'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Jost:wght@300..600&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/arte/hero-panoramico-1920.webp" media="(min-width: 861px)" />
+  <link rel="preload" as="image" href="assets/img/arte/hero-retrato-800.webp" media="(max-width: 860px)" />
+  <link rel="stylesheet" href="css/styles.css?v=5b6e6f28" />
+
+  <script>
+    document.documentElement.classList.add('js');
+    if (new URLSearchParams(location.search).has('estatico')) {
+      document.documentElement.dataset.estatico = '1';
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Casamento de Alan e Bia",
+    "startDate": "2026-11-21T16:00:00-03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Petrolina, Pernambuco",
+      "address": { "@type": "PostalAddress", "addressLocality": "Petrolina", "addressRegion": "PE", "addressCountry": "BR" }
+    },
+    "description": "Casamento de Alan e Bia, em Petrolina — onde a história deles começou."
+  }
+  </script>
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="grao" aria-hidden="true"></div>
+<div class="progresso" id="progresso" aria-hidden="true"></div>
+
+<!-- ================= NAVEGAÇÃO ================= -->
+<header class="nav" id="nav">
+  <a class="nav__marca" href="#topo" aria-label="Alan e Bia, voltar ao início">A<span>&amp;</span>B</a>
+  <nav class="nav__links" aria-label="Seções do site">
+    <a href="#historia">História</a>
+    <a href="#galeria">Fotos</a>
+    <a href="#grande-dia">O grande dia</a>
+    <a href="#presenca">Presença</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+  <button class="nav__hamburguer" id="hamburguer" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="menu" id="menu" data-aberto="false">
+  <nav aria-label="Menu principal">
+    <a href="#historia">História</a>
+    <a href="#galeria">Fotos</a>
+    <a href="#grande-dia">O grande dia</a>
+    <a href="#presenca">Presença</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+  <p class="menu__rodape">21 . 11 . 2026 · Petrolina</p>
+</div>
+
+<main id="conteudo">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="topo">
+  <div class="hero__fundo">
+    <picture>
+      <source media="(max-width: 860px)" type="image/webp"
+              srcset="assets/img/arte/hero-retrato-800.webp 800w, assets/img/arte/hero-retrato-1200.webp 1200w" />
+      <source media="(max-width: 860px)" srcset="assets/img/arte/hero-retrato-1200.jpg" />
+      <source type="image/webp"
+              srcset="assets/img/arte/hero-panoramico-1280.webp 1280w, assets/img/arte/hero-panoramico-1920.webp 1920w, assets/img/arte/hero-panoramico-2560.webp 2560w"
+              sizes="100vw" />
+      <img src="assets/img/arte/hero-panoramico-1920.jpg"
+           alt="Alan e Bia abraçados, testa com testa, sorrindo no dia do casamento civil" fetchpriority="high" />
+    </picture>
+  </div>
+  <div class="hero__veu" aria-hidden="true"></div>
+  <canvas class="hero__poeira" id="poeira" aria-hidden="true"></canvas>
+
+  <div class="hero__conteudo">
+    <div class="hero__caixa">
+      <p class="hero__selo hero__anima hero__anima--1">Vai ter casamento</p>
+      <h1 class="hero__nomes hero__anima hero__anima--2">Alan<span class="e">&amp;</span>Bia</h1>
+      <p class="hero__frase hero__anima hero__anima--3">
+        Começou com um açaí em Petrolina. Atravessou o Brasil.
+        E volta exatamente para onde nasceu.
+      </p>
+      <p class="hero__data hero__anima hero__anima--4">
+        <span>Sábado, 21 . 11 . 2026</span><i aria-hidden="true"></i><span>Petrolina · PE</span>
+      </p>
+      <div class="hero__acoes hero__anima hero__anima--5">
+        <button type="button" class="btn btn--ouro" data-abre-presenca>Confirmar presença</button>
+      </div>
+    </div>
+  </div>
+
+  <a href="#save-the-date" class="hero__cue hero__anima hero__anima--6">
+    <span>role para ler</span>
+    <i aria-hidden="true"></i>
+  </a>
+</section>
+
+<!-- ================= SAVE THE DATE ================= -->
+<section class="fita" id="save-the-date">
+  <div class="fita__ornamento" data-revela>
+    <img src="assets/img/arte/ornamento-transparente-700.webp" alt="" width="700" height="224" loading="lazy" />
+  </div>
+  <p class="rotulo rotulo--centro rotulo--claro" data-revela>Save the date</p>
+  <h2 class="fita__data" data-revela data-atraso="1">21 de <em>novembro</em> de 2026</h2>
+  <p class="fita__local" data-revela data-atraso="2">Petrolina · Pernambuco · Brasil</p>
+
+  <div class="contagem" id="contagem" data-revela data-atraso="3">
+    <div class="contagem__cel"><strong id="c-dias">—</strong><span>dias</span></div>
+    <div class="contagem__cel"><strong id="c-horas">—</strong><span>horas</span></div>
+    <div class="contagem__cel"><strong id="c-min">—</strong><span>minutos</span></div>
+    <div class="contagem__cel"><strong id="c-seg">—</strong><span>segundos</span></div>
+  </div>
+
+  <div class="fita__acoes" data-revela data-atraso="3">
+    <a class="btn btn--ouro" id="btn-agenda" href="#" download="alan-e-bia.ics">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+      Salvar na agenda
+    </a>
+    <button type="button" class="btn btn--contorno" data-abre-presenca>Confirmar presença</button>
+  </div>
+</section>
+
+<!-- ================= O MAPA ================= -->
+<section class="mapa" id="mapa">
+  <div class="envelope mapa__grade">
+    <div class="mapa__texto">
+      <p class="rotulo" data-revela>O caminho até aqui</p>
+      <h2 class="titulo" data-revela data-atraso="1">Seis anos e<br /><em>4 mil quilômetros</em></h2>
+      <ul class="mapa__paradas" data-revela data-atraso="2">
+        <li><b>2020</b> Petrolina · o açaí</li>
+        <li><b>2021</b> Fortaleza · o cursinho</li>
+        <li><b>2021</b> Limeira · a Unicamp</li>
+        <li><b>2022</b> São Paulo · a vida a dois</li>
+        <li><b>2026</b> Petrolina · o sim</li>
+      </ul>
+    </div>
+
+    <div class="mapa__palco" id="mapa-palco" data-revela data-atraso="1">
+      <picture>
+        <source type="image/webp" srcset="assets/img/arte/mapa-transparente-760.webp 760w, assets/img/arte/mapa-transparente-1200.webp 1200w" sizes="(max-width: 900px) 90vw, 46vw" />
+        <img src="assets/img/arte/mapa-transparente-1200.png" width="1200" height="896" loading="lazy"
+             alt="Mapa ilustrado do Brasil em traço dourado, ligando Petrolina, Fortaleza, Limeira e São Paulo, com a rota voltando para Petrolina" />
+      </picture>
+      <div class="mapa__pino mapa__pino--noroeste" style="left:71.6%; top:40.2%" data-ordem="1"><i></i><b>o açaí</b></div>
+      <div class="mapa__pino mapa__pino--acima"    style="left:74.0%; top:28.2%" data-ordem="2"><i></i><b>o cursinho</b></div>
+      <div class="mapa__pino mapa__pino--acima"    style="left:58.1%; top:64.5%" data-ordem="3"><i></i><b>a Unicamp</b></div>
+      <div class="mapa__pino mapa__pino--abaixo"   style="left:60.5%; top:69.6%" data-ordem="4"><i></i><b>a vida a dois</b></div>
+      <div class="mapa__pino mapa__pino--dir"      style="left:72.6%; top:40.2%" data-ordem="5"><i></i><b>o sim</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOSSA HISTÓRIA ================= -->
+<section class="historia" id="historia">
+  <header class="historia__cabecalho">
+    <p class="rotulo" data-revela>Nossa história</p>
+    <h2 class="titulo" data-revela data-atraso="1">De um açaí<br /><em>para a vida inteira</em></h2>
+    <p class="texto-guia texto-guia--centro" data-revela data-atraso="2">
+      Sete capítulos, quatro cidades e uma border collie que entrou no meio de tudo.
+    </p>
+  </header>
+
+  <div class="rota" id="rota">
+    <div class="rota__trilho" aria-hidden="true"></div>
+    <div class="rota__preenche" id="rota-preenche" aria-hidden="true"></div>
+
+    <article class="capitulo capitulo--soltexto" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">01</span>
+        <p class="rotulo">Petrolina · dezembro de 2020</p>
+        <h3>Tudo começou com um açaí</h3>
+        <p>Uma conversa no Instagram, um encontro marcado, uma açaiteria em Petrolina. Poucos dias depois, estavam juntos.</p>
+        <div class="capitulo__notas">
+          <span>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 30l2.6-7a4 4 0 0 1 3.8-2.7h5.2l6-5a4 4 0 0 1 2.6-1h5.4a3 3 0 0 1 2.9 2.2L37 22l4 1.6V30"/><path d="M7 30h34"/><circle cx="15" cy="32" r="3.4"/><circle cx="33" cy="32" r="3.4"/></svg>
+            ela foi de Civic
+          </span>
+          <span>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 10c3 0 4.4 2.8 4.4 6.2 0 3.3-1.4 6-4.4 6s-4.4-2.7-4.4-6C12.6 12.8 14 10 17 10Z"/><path d="M14 26h6v3a3 3 0 0 1-6 0Z"/><path d="M31 22c3 0 4.4 2.8 4.4 6.2 0 3.3-1.4 6-4.4 6s-4.4-2.7-4.4-6c0-3.4 1.4-6.2 4.4-6.2Z"/><path d="M28 38h6v1a3 3 0 0 1-6 0Z"/></svg>
+            ele foi a pé
+          </span>
+        </div>
+      </div>
+    </article>
+
+    <div class="distancia" data-revela>
+      <div class="distancia__pilula">
+        <strong><span data-conta data-de="0" data-ate="800">800</span> km</strong>
+        <span>catorze horas de ônibus entre eles</span>
+      </div>
+    </div>
+    <article class="capitulo capitulo--soltexto" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">02</span>
+        <p class="rotulo">2021 · Fortaleza ⇄ Petrolina</p>
+        <h3>Sonhos grandes, direções opostas</h3>
+        <p>Bia passou na Unicamp. Alan ganhou bolsa e foi tentar o ITA em Fortaleza. O primeiro ano de namoro foi medido em horas de estrada — catorze, para ser exato — e cada despedida já vinha com a próxima passagem comprada.</p>
+      </div>
+    </article>
+
+    <div class="distancia" data-revela>
+      <div class="distancia__pilula">
+        <strong><span data-conta data-de="800" data-ate="150">150</span> km</strong>
+        <span>a distância caiu para duas horas</span>
+      </div>
+    </div>
+    <article class="capitulo" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">03</span>
+        <p class="rotulo">São Paulo ⇄ Limeira · 2021</p>
+        <h3>A distância diminui</h3>
+        <p>O ITA não veio. Veio coisa melhor: Insper para ele, Unicamp para ela. Agora eram só duas horas de estrada, e todo fim de semana era dos dois.</p>
+      </div>
+      <div class="capitulo__midia">
+        <figure class="moldura" data-revela data-atraso="1">
+          <img src="assets/img/galeria/insper-2b68f21e-700.webp" alt="Alan de beca e capelo na formatura do Insper, ao lado de Bia, ambos sorrindo"
+               width="700" height="875" loading="lazy" />
+          <figcaption>A formatura do Alan no Insper. Bia, claro, na primeira fila.</figcaption>
+        </figure>
+      </div>
+    </article>
+    <article class="capitulo" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">04</span>
+        <p class="rotulo">Campo Belo · São Paulo</p>
+        <h3>Debaixo do mesmo teto</h3>
+        <p>Depois de tanto ônibus, veio o passo mais gostoso: morar juntos. Chegou a Collie, que entrou bagunçando tudo e virou filha. Dois anos depois, o apartamento no Campo Belo.</p>
+      </div>
+      <div class="capitulo__midia">
+        <figure class="moldura" data-revela data-atraso="1">
+          <img src="assets/img/galeria/collie-4d69038b-700.webp" alt="Selfie no espelho do casal segurando a Collie ainda filhote no colo"
+               width="700" height="875" loading="lazy" />
+          <figcaption>O dia em que a família cresceu uma patinha.</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <div class="distancia" data-revela>
+      <div class="distancia__pilula distancia__pilula--zero">
+        <strong><span data-conta data-de="150" data-ate="0">0</span> km</strong>
+        <span>enfim, nenhuma distância</span>
+      </div>
+    </div>
+    <article class="capitulo" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">05</span>
+        <p class="rotulo">Agosto de 2026 · mar aberto</p>
+        <h3>Um ensaio de para sempre</h3>
+        <p>Um veleiro, um leme dividido e o sol na altura exata dos olhos. Nenhuma pressa — só a certeza de que era aquilo que queriam para o resto da vida.</p>
+      </div>
+      <div class="capitulo__midia">
+        <figure class="moldura" data-revela data-atraso="1">
+          <img src="assets/img/galeria/veleiro-cdd94f06-700.webp" alt="Alan ao leme de um veleiro com Bia ao lado, ao pôr do sol no mar"
+               width="700" height="875" loading="lazy" />
+          <figcaption>Ele no leme, ela no rumo. Como sempre.</figcaption>
+        </figure>
+      </div>
+    </article>
+    <article class="capitulo" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">06</span>
+        <p class="rotulo">8 de agosto de 2026 · o civil</p>
+        <h3>No papel, para sempre</h3>
+        <p>Vestido branco, buquê de astromélias e um bolo com um <em>A</em> e um <em>B</em> no topo. Cercados pelos mais próximos, o “sim” oficial já está dado.</p>
+        <div class="capitulo__notas">
+          <span>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="19" cy="29" r="8.5"/><circle cx="29" cy="29" r="8.5"/></svg>
+            alianças a postos
+          </span>
+          <span>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 40V24h28v16Z"/><path d="M10 30h28"/><path d="M24 24v-6"/><circle cx="24" cy="14" r="3"/></svg>
+            bolo com A &amp; B
+          </span>
+        </div>
+      </div>
+      <div class="capitulo__midia">
+        <figure class="moldura" data-revela data-atraso="1">
+          <img src="assets/img/galeria/civil-2e5f3b13-700.webp" alt="Mãos do casal com as alianças tocando o bolo branco com as iniciais A e B em dourado"
+               width="700" height="875" loading="lazy" />
+          <figcaption>Duas alianças, duas iniciais, um bolo só.</figcaption>
+        </figure>
+      </div>
+    </article>
+    <article class="capitulo" data-capitulo>
+      <div class="capitulo__marco" aria-hidden="true"></div>
+      <div class="capitulo__cartao" data-revela>
+        <span class="capitulo__num" aria-hidden="true">07</span>
+        <p class="rotulo">21 de novembro de 2026 · Petrolina</p>
+        <h3>De volta ao começo</h3>
+        <p>A festa só podia ser em um lugar: Petrolina, a mesma cidade da açaiteria. Seis anos depois, a história dá a volta inteira e volta para casa. <strong>Vai ter casamento.</strong></p>
+      </div>
+      <div class="capitulo__midia">
+        <figure class="moldura" data-revela data-atraso="1">
+          <img src="assets/img/galeria/civil-7d599417-700.webp" alt="Alan e Bia abraçados, testa com testa, sorrindo de olhos fechados"
+               width="700" height="875" loading="lazy" />
+          <figcaption>O resto é festa.</figcaption>
+        </figure>
+      </div>
+    </article>
+  </div>
+
+  <p class="chamada--historia" data-revela>Agora só falta você nessa história.</p>
+</section>
+
+<!-- ================= COLLIE ================= -->
+<section class="collie" id="collie">
+  <div class="envelope collie__grade">
+    <div class="collie__texto">
+      <p class="rotulo rotulo--claro" data-revela>Um aviso importante</p>
+      <h2 class="titulo titulo--claro" data-revela data-atraso="1">A madrinha<br /><em>de quatro patas</em></h2>
+      <p data-revela data-atraso="2">
+        A Collie, border collie especialista em roubar cenas e corações, foi oficialmente
+        promovida de filha a madrinha. Já está ensaiando a entrada dela — esperem latidos
+        de emoção.
+      </p>
+      <div class="collie__patas" aria-hidden="true" data-revela data-atraso="3">
+        <svg viewBox="0 0 48 48"><ellipse cx="24" cy="31" rx="6.5" ry="5.5"/><circle cx="13.5" cy="22" r="3"/><circle cx="20" cy="15.5" r="3"/><circle cx="28" cy="15.5" r="3"/><circle cx="34.5" cy="22" r="3"/></svg>
+        <svg viewBox="0 0 48 48"><ellipse cx="24" cy="31" rx="6.5" ry="5.5"/><circle cx="13.5" cy="22" r="3"/><circle cx="20" cy="15.5" r="3"/><circle cx="28" cy="15.5" r="3"/><circle cx="34.5" cy="22" r="3"/></svg>
+        <svg viewBox="0 0 48 48"><ellipse cx="24" cy="31" rx="6.5" ry="5.5"/><circle cx="13.5" cy="22" r="3"/><circle cx="20" cy="15.5" r="3"/><circle cx="28" cy="15.5" r="3"/><circle cx="34.5" cy="22" r="3"/></svg>
+      </div>
+    </div>
+
+    <figure class="moldura collie__retrato" data-revela data-atraso="2">
+      <img src="assets/img/galeria/collie-b4f8ff79-700.webp"
+           alt="A Collie filhote deitada no chão de madeira, segurando uma bolinha laranja entre as patas"
+           width="700" height="875" loading="lazy" />
+      <figcaption>Currículo: uma bolinha, zero vergonha na cara.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= GALERIA ================= -->
+<section class="galeria" id="galeria">
+  <div class="envelope">
+    <header class="galeria__cabecalho">
+      <p class="rotulo rotulo--centro" data-revela>Álbum</p>
+      <h2 class="titulo" data-revela data-atraso="1">Alguns <em>momentos</em></h2>
+    </header>
+
+    <div class="filtros" id="filtros" role="group" aria-label="Filtrar fotos por capítulo"></div>
+
+    <div class="mosaico" id="mosaico"></div>
+    <p class="galeria__vazio" id="galeria-vazio" hidden>Nenhuma foto neste capítulo ainda.</p>
+  </div>
+</section>
+
+<!-- ================= O GRANDE DIA ================= -->
+<section class="grandedia" id="grande-dia">
+  <div class="envelope">
+    <header class="grandedia__cabecalho">
+      <p class="rotulo rotulo--centro rotulo--claro" data-revela>O grande dia</p>
+      <h2 class="titulo titulo--claro" data-revela data-atraso="1">Tudo sendo preparado<br /><em>com muito carinho</em></h2>
+      <p class="texto-guia texto-guia--centro" data-revela data-atraso="2">
+        A data está marcada e a cidade escolhida. Endereço, horário e dicas de hospedagem
+        entram aqui assim que fecharmos — confirme presença agora e a gente te avisa.
+      </p>
+    </header>
+
+    <div class="cartoes">
+      <article class="cartao" data-revela>
+        <svg viewBox="0 0 48 48"><circle cx="19" cy="29" r="8.5"/><circle cx="29" cy="29" r="8.5"/><path d="M27 12.5l1.2 2.7 2.7 1.2-2.7 1.2L27 20.3l-1.2-2.7-2.7-1.2 2.7-1.2Z"/></svg>
+        <h3>Cerimônia</h3>
+        <p>O momento do “sim” diante de todo mundo que os dois amam.</p>
+        <dl>
+          <div><dt>Data</dt><dd>Sábado, 21 de novembro de 2026</dd></div>
+          <div><dt>Cidade</dt><dd>Petrolina, Pernambuco</dd></div>
+        </dl>
+              </article>
+
+      <article class="cartao" data-revela data-atraso="1">
+        <svg viewBox="0 0 48 48"><path d="M11 8l10 2.6-3 11.6a4.2 4.2 0 0 1-8.1-2.1Z"/><path d="M15.9 22.8 13 34"/><path d="M8 37l9.7 2.5"/><path d="M37 8l-10 2.6 3 11.6a4.2 4.2 0 0 0 8.1-2.1Z"/><path d="M32.1 22.8 35 34"/><path d="M40 37l-9.7 2.5"/><path d="M24 5.5v3M20.5 4l.9 2.4M27.5 4l-.9 2.4"/></svg>
+        <h3>Recepção</h3>
+        <p>Depois do sim vem a festa: música alta, abraços apertados e comida boa até tarde.</p>
+        <dl>
+          <div><dt>Quando</dt><dd>Logo após a cerimônia</dd></div>
+          <div><dt>Clima</dt><dd>Festa de sertão, sem hora para acabar</dd></div>
+        </dl>
+              </article>
+
+      <article class="cartao" data-revela data-atraso="2">
+        <svg viewBox="0 0 48 48"><path d="M24 12a3.5 3.5 0 1 1 3.5-3.5"/><path d="M24 12v4"/><path d="M24 16 8 30v3h32v-3Z"/></svg>
+        <h3>Traje</h3>
+        <p>Para você já ir sonhando com o look — e conferindo a previsão do tempo de novembro em Petrolina.</p>
+        <dl>
+          <div><dt>Sugestão</dt><dd>Esporte fino</dd></div>
+          <div><dt>Dica</dt><dd>Novembro no Vale do São Francisco é quente. Tecidos leves agradecem.</dd></div>
+        </dl>
+              </article>
+
+      <article class="cartao" data-revela data-atraso="3">
+        <svg viewBox="0 0 48 48"><path d="M14 20h20l-1.6 18a3 3 0 0 1-3 2.7H18.6a3 3 0 0 1-3-2.7Z"/><path d="M18 12h12v8H18Z"/><path d="M24 12V7"/><path d="M20 7h8"/></svg>
+        <h3>Presentes</h3>
+        <p>O maior presente é ter você lá. Mas quem quiser mimar o casal, é só clicar aqui embaixo.</p>
+        <dl>
+          <div><dt>Pix</dt><dd>Para a lua de mel e a casa nova</dd></div>
+          <div><dt>Presente físico</dt><dd>Temos endereço para receber</dd></div>
+        </dl>
+        <button type="button" class="btn btn--contorno btn--mini cartao__btn" data-abre-presenca>
+          Ver como ajudar
+        </button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRESENÇA ================= -->
+<section class="rsvp" id="presenca">
+  <div class="envelope rsvp__faixa">
+    <div class="rsvp__texto">
+      <p class="rotulo" data-revela>Confirmação de presença</p>
+      <h2 class="titulo" data-revela data-atraso="1">Queremos você<br /><em>com a gente</em></h2>
+      <p class="texto-guia" data-revela data-atraso="2">
+        Leva menos de um minuto. Confirme logo para a gente conseguir se organizar com
+        cadeiras, comida e aquele lugarzinho a mais na pista.
+      </p>
+    </div>
+
+    <div class="rsvp__acao" data-revela data-atraso="2">
+      <button type="button" class="btn btn--ouro btn--grande" data-abre-presenca>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
+        Confirmar presença
+      </button>
+      <p class="chamada__nota">Sábado, 21 . 11 . 2026 · Petrolina, PE</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DÚVIDAS ================= -->
+<section class="faq" id="duvidas">
+  <div class="envelope--estreito">
+    <header class="faq__cabecalho">
+      <p class="rotulo rotulo--centro" data-revela>Perguntas frequentes</p>
+      <h2 class="titulo" data-revela data-atraso="1">Tirando as <em>dúvidas</em></h2>
+    </header>
+
+    <div class="sanfona" data-revela data-atraso="2">
+      <details>
+        <summary>Espera — vocês não casaram já?</summary>
+        <p>
+          Casamos no civil, em agosto de 2026, num cartório e com pouca gente. No papel
+          já está tudo certo. O dia 21 de novembro é a festa: a celebração com todo mundo
+          que a gente ama, na cidade onde essa história começou.
+        </p>
+      </details>
+      <details>
+        <summary>Por que Petrolina, se vocês moram em São Paulo?</summary>
+        <p>
+          Porque foi lá que tudo começou, numa açaiteria, em dezembro de 2020. Fazia
+          sentido a história dar a volta inteira e voltar para casa. E de quebra, é onde
+          está boa parte da família.
+        </p>
+      </details>
+      <details>
+        <summary>Posso levar acompanhante ou crianças?</summary>
+        <p>
+          Pode. É só dizer o número total de pessoas na confirmação de presença, para a
+          gente se organizar com cardápio e cadeiras. Como o espaço tem limite, pedimos
+          que confirme antes em vez de aparecer com surpresa.
+        </p>
+      </details>
+      <details>
+        <summary>Qual o traje?</summary>
+        <p>
+          Esporte fino. Novembro no Vale do São Francisco é quente de verdade, então
+          aposte em tecidos leves e sapato confortável — a festa promete durar.
+        </p>
+      </details>
+      <details>
+        <summary>Como faço para chegar e onde fico?</summary>
+        <p>
+          Petrolina tem aeroporto próprio (PNZ), com voos conectando pelo Recife,
+          Salvador e São Paulo. Assim que fecharmos os endereços, colocamos aqui uma
+          lista de hotéis e pousadas com sugestões perto do local da festa.
+        </p>
+      </details>
+      <details>
+        <summary>E a Collie, vai estar lá?</summary>
+        <p>
+          É madrinha. Claro que vai. Está inclusive ensaiando a entrada — e aceitando
+          carinho como suborno desde já.
+        </p>
+      </details>
+      <details>
+        <summary>Tem lista de presentes?</summary>
+        <p>
+          Lista, não. Quem quiser presentear pode mandar um Pix — estamos juntando para
+          a lua de mel e para as reformas da casa nova — ou enviar algo para o nosso
+          endereço. A chave e o endereço aparecem no botão “Confirmar presença”.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= RODAPÉ ================= -->
+<footer class="rodape">
+  <div class="rodape__ornamento" aria-hidden="true">
+    <img src="assets/img/arte/ornamento-transparente-700.webp" alt="" width="700" height="224" loading="lazy" />
+  </div>
+  <p class="rodape__monograma">A <span>&amp;</span> B</p>
+  <p class="rodape__frase">De um açaí em Petrolina para a vida inteira.</p>
+  <div class="rodape__acoes">
+    <button type="button" class="btn btn--ouro" data-abre-presenca>Confirmar presença</button>
+  </div>
+  <p class="rodape__nota">21 . 11 . 2026 · Petrolina, Pernambuco — com a Collie de madrinha 🐾</p>
+</footer>
+
+<!-- ================= POP-UP DE PRESENÇA ================= -->
+<div class="modal" id="modal-presenca" role="dialog" aria-modal="true"
+     aria-labelledby="modal-titulo" data-aberto="false">
+  <div class="modal__caixa" role="document">
+    <button class="modal__fechar" type="button" aria-label="Fechar">&times;</button>
+
+    <div class="modal__ornamento" aria-hidden="true">
+      <img src="assets/img/arte/ornamento-transparente-700.webp" alt="" width="700" height="224" />
+    </div>
+
+    <p class="rotulo rotulo--centro">Antes de confirmar</p>
+    <h2 class="modal__titulo" id="modal-titulo">O maior presente<br /><em>é você lá</em></h2>
+
+    <p class="modal__texto">
+      Já temos casa, panelas e uma cachorra mandona. Então, de verdade: a sua presença
+      basta. Mas muita gente perguntou como ajudar — e para essas pessoas, fica o
+      convite abaixo.
+    </p>
+
+    <div class="modal__opcoes">
+      <div class="mimo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.8 21.2 12 12 21.2 2.8 12Z"/><path d="M8.4 8.4 12 12l3.6-3.6M8.4 15.6 12 12l3.6 3.6"/></svg>
+        <h3>Um Pix, se der no coração</h3>
+        <p>
+          Estamos juntando para a <strong>lua de mel</strong> e para as
+          <strong>reformas da casa nova</strong>. Qualquer valor ajuda — e a gente
+          conta tudo depois.
+        </p>
+        <div class="pix">
+          <span class="pix__rotulo">Chave Pix</span>
+          <code class="pix__chave" id="pix-chave">87991893823</code>
+          <button type="button" class="btn btn--fantasma btn--mini" id="btn-copiar-pix"
+                  data-copiar="87991893823" data-ok="Chave copiada!">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+            Copiar chave
+          </button>
+        </div>
+      </div>
+
+      <div class="mimo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10 12 3l9 7"/><path d="M5 9v11h14V9"/><path d="M12 20v-6"/></svg>
+        <h3>Prefere mandar algo?</h3>
+        <p>Nosso endereço para receber presentes:</p>
+        <address class="endereco" id="endereco">
+          Rua José Batista Pereira, 51 — ap. 1910<br />
+          Campo Belo · São Paulo · SP
+        </address>
+        <button type="button" class="btn btn--fantasma btn--mini" id="btn-copiar-endereco"
+                data-copiar="Rua José Batista Pereira, 51 - ap. 1910, Campo Belo, São Paulo - SP"
+                data-ok="Endereço copiado!">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+          Copiar endereço
+        </button>
+      </div>
+    </div>
+
+    <div class="modal__acoes">
+      <a class="btn btn--ouro btn--grande" id="btn-ir-formulario" href="#" target="_blank" rel="noopener">
+        Ir para a confirmação
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <p class="modal__nota">Sem pressa com o Pix. O que a gente quer mesmo é você na pista.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" data-aberto="false">
+  <button class="lightbox__fechar" type="button" aria-label="Fechar">&times;</button>
+  <button class="lightbox__seta lightbox__seta--ant" type="button" aria-label="Foto anterior">&lsaquo;</button>
+  <figure>
+    <img alt="" />
+    <figcaption>
+      <span id="lightbox-legenda"></span>
+      <span class="lightbox__contador" id="lightbox-contador"></span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__seta lightbox__seta--prox" type="button" aria-label="Próxima foto">&rsaquo;</button>
+</div>
+
+<!-- dados da galeria: arquivo .js para funcionar tambem em file:// -->
+<script src="assets/data/galeria.js?v=1bc630f8"></script>
+
+<!-- bibliotecas prontas (opcionais: se nao carregarem, o site continua funcionando) -->
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+
+<script src="js/main.js?v=888332ff" defer></script>
+</body>
+</html>
